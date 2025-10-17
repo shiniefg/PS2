@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    margin-top: px;
+    width: 100%;
+    width: 1100px;
+    height: 400px;
+    background-image: url(GTA\ San\ Andreas.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botao1 {
+    font-family: 'Anton' 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+    border: black solid 5px;
+    border: none;
+    background-color: black;
+    color: yellow;
+}
+
+button:hover {
+    background-color: rgb(195, 191, 191);
+}
+
+button {
+    border: none;
+    font-family: 'Anton' sans-serif;
+    cursor: pointer;
+}
+
+.mapa {
+
+    display: flex;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+h1 {
+    color: yellow;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+h5{
+    color: white;
+    margin-left: 50px;
+}
+.tela{
+    position: absolute;
+}

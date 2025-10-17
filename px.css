@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    text-align: center;
+    background-color: black;
+    border: black solid 2px;
+    padding: 26px 1px;
+    display: block;
+    margin-top: 0;
+
+}
+
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: rgb(225, 255, 0);
+}
+
+.foto1 {
+margin-top: 5px;
+    text-align: center;
+}
+
+.h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    color: aqua;
+}
+
+.tela {
+    position: absolute;
+    text-align: center;
+}
+button:hover {
+    background-color: rgb(195, 191, 191);
+}
+
+button {
+    margin-top: 6px;
+    font-family: 'Anton' sans-serif;
+    cursor: pointer;
+}
+.navbar2 {
+    text-align: center;
+    background-color: black;
+    border: black solid 2px;
+    padding: 26px 1px;
+    display: block;
+    margin-top: 0;
+
+}
+.navbar2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(225, 255, 0);
+}
+.h4{
+ margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.buttonm{
+    margin-top: 40px;
+      cursor: pointer;
+    text-align: center;
+}
+
+.map{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 15px;
+text-align: center;
+}

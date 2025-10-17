@@ -1,0 +1,11 @@
+.barras {
+    text-align: center;
+    background-color: black;
+    border: black solid 2px;
+    padding: 10px 1px;
+    display: block;
+    color: yellow;
+}
+h3{
+    text-align: center;
+}
