@@ -18,4 +18,7 @@ function hi() {
 function b3() {
     window.location.href = "pxmod.html"
 }
+function ha(){
+    window.location.href = "ha.html"
+}
 

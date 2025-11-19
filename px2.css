@@ -60,3 +60,18 @@ h5{
 .tela{
     position: absolute;
 }
+
+.ha{
+    margin-top: 12px;
+    margin-left: 12px;
+
+    border-color: aquamarine;
+    color: white
+}
+
+#foo{
+
+ text-align: center;
+    
+    color: white;
+}
