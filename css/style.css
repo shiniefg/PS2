@@ -1,0 +1,213 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR / BARRAS */
+.navbar, .barra, .barras {
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    padding: 12px 0;
+    color: yellow;
+}
+
+.barras {
+    margin-top: 40px;
+}
+
+/* TELA PRINCIPAL */
+.tela {
+    width: 100%;
+    position: relative;
+}
+
+/* TOPO (px2) */
+.topo {
+    width: 100%;
+    height: 400px;
+    background-image: url("GTA San Andreas.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+/* BOTÕES GERAIS */
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    color: yellow;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(195, 191, 191);
+    color: black;
+}
+
+/* ARRUMAÇÃO DO px2 — AQUI TAVA O PROBLEMA */
+.botao1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* antes tava 160px = quebrava tudo */
+    flex-wrap: wrap; /* pra não empurrar botão pra outro lado */
+    padding: 20px;
+}
+
+/* TEXTO */
+h1 {
+    color: yellow;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+/* IMAGENS */
+img {
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+/* MAPA */
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* PERSONAGENS */
+.p {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+/* FUNDO PX.HTML */
+.img {
+    margin-top: 25px;
+    width: 100%;
+    height: 370px;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* BOTÃO CENTRALIZADO (personagens, mapa) */
+.buttonm {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* FORM (ha.html) */
+.campo {
+    text-align: center;
+    margin-top: 40px;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* FUNDO */
+body {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+/* BOTÃO VOLTAR */
+.voo {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.voo button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.voo button:hover {
+    background-color: rgb(214, 214, 9);
+}
+
+/* CONTEÚDO CENTRAL */
+.campo {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid yellow;
+}
+
+/* TÍTULO */
+.campo h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: yellow;
+}
+
+/* INPUTS */
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #222;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* BOTÃO ENVIAR */
+.butao {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.butao:hover {
+    background-color: rgb(228, 228, 34);
+}

@@ -1,4 +1,4 @@
-1-Qual e o nome e objetivo do site?
+1-Qual é o nome e objetivo do site?
 
 Projeto x. Contar a historia do GTA: San Andreas
 
